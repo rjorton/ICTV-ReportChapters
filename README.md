@@ -457,7 +457,7 @@ Followed by (if it exists):
 
 - Related, unclassified viruses
 
-The page starts with a Distinguishing features section/heading (unlike family pages whcih start with a Summary section/heading)
+The page starts with a Distinguishing features section/heading (unlike family pages which start with a Summary section/heading)
 
 Often, a section (such as Virion) within a genus page may be empty. In such cases, the following text should be used (e.g. see [*Ascovirus*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/dsdna-viruses/w/ascoviridae/408/genus-ascovirus)):
 
