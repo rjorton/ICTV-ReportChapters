@@ -1,6 +1,6 @@
 # ICTV-ReportChapters
 
-This GitHub repo stores instructions for how to load an ICTV Report Chpater from the submitted MS-Word document into the ICTV website's Telligent website management system. Also in the repo are a couple of files (EndNote style, chpater template) and a couple of scripts to help.
+This GitHub repo stores instructions for how to load an ICTV Report Chapter from the submitted MS-Word document into the ICTV website's Telligent content management system. Also in the repo are a couple of files (EndNote style, chapter template) and a couple of scripts to help.
 
 The vast majority of the style/rules were not like this initially and have been built up over the years. The below is a summary of the existing style/rules - these are not my style/rules (I don't like many of them), they are the Report style/rules which are implemented; most of them (heading names, ordering etc) are specified within the Word chapter template itself (uploaded here to GitHub as well for clarity).
 
