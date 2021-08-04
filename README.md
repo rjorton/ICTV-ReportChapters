@@ -465,7 +465,7 @@ Often, a section (such as Virion) within a genus page may be empty. In such case
 See discussion under family description.
 ```
 
-With the text 'family description' being a hyperlink to the corresponding section on the family page. This is where the anchors come in. To utilise an anchor to say the Virion section of the *Flaviviridae* chapter use the below hyperlink (note the #Virion at the end - the name of anchor assigned preivously to the Virion heading):
+With the text 'family description' being a hyperlink to the corresponding section on the family page. This is where the anchors come in. To utilise an anchor to say the Virion section of the *Flaviviridae* chapter use the below hyperlink (note the #Virion at the end - the name of anchor assigned previously to the Virion heading):
 
 [https://talk.ictvonline.org/ictv-reports/ictv\_online\_report/positive-sense-rna-viruses/w/flaviviridae#Virion](https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae#Virion)
 
@@ -507,7 +507,7 @@ Alternatively, this can be pasted directly into the source code with:
 
 ### Subgenera ###
 
-To date, there has has not been a chapter that really describes subgenera in any detail such as demarcation criteria. They are currenlty simply handled by splitting the Member species section on the genus pages into multiple sections - one for each subgenus with the heading **Member species - subgenus** ***Mysubvirus*** and it's own member species table.
+To date, there has not been a chapter that really describes subgenera in any detail such as demarcation criteria. They are currently simply handled by splitting the Member species section on the genus pages into multiple sections - one for each subgenus with the heading **Member species - subgenus** ***Mysubvirus*** and its own member species table.
 
 For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/arteriviridae)
 
@@ -545,7 +545,7 @@ You will need to check whether there are any floating species (not in a genus) w
 
 At the family level, the title of the page (for the TOC) is **'Unassigned species'** whilst the top heading (h2) of the page is **'Unassigned species in family *Myviridae*'**. The member species table (ICTV Virus Properties table) should be pasted directly under this heading; after entering the appropriate taxon name, select 'Only unassigned species' from the 'What species should be displayed?' dropbox. For example, see [*Geminiviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/ssdna-viruses/w/geminiviridae/621/unassigned-species).
 
-For subfamilies, the Unassgiend species table has previously been added to the subfamily page itself rather than on a separate page under a heading **'Species unassigned to a genus'**. For example, see [*Herelleviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/dsdna-viruses/w/herelleviridae/1267/subfamily-bastillevirinae) subfamilies. 
+For subfamilies, the Unassigned species table has previously been added to the subfamily page itself rather than on a separate page under a heading **'Species unassigned to a genus'**. For example, see [*Herelleviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/dsdna-viruses/w/herelleviridae/1267/subfamily-bastillevirinae) subfamilies. 
 
 Note both these example chapters actually need updating as the tables are currently empty due to taxonomic updates.
 
@@ -563,7 +563,7 @@ For examples, see:
 
 ## Report Index ##
 
-Previously, chapter Wiki's would be listed on the [main report page](https://talk.ictvonline.org/ictv-reports/ictv_online_report/) by default, however due to udpates in the Telligent system this functionaltiy stopped. Therefore, a new report chapter Wiki must be manually added to the [main report page](https://talk.ictvonline.org/ictv-reports/ictv_online_report/).
+Previously, chapter Wiki's would be listed on the [main report page](https://talk.ictvonline.org/ictv-reports/ictv_online_report/) by default, however due to updates in the Telligent system this functionality stopped. Therefore, a new report chapter Wiki must be manually added to the [main report page](https://talk.ictvonline.org/ictv-reports/ictv_online_report/).
 
 ```
 Edit -> Manage Group Theme -> Edit this page
@@ -601,7 +601,7 @@ The script then creates a new modified version of the source code which should b
 
 **RJO ToDo:** create python version of script so that it can run on windows.
 
-Obivously, this step can be ignored if not doing hoverable hyper-linked references.
+Obviously, this step can be ignored if not doing hoverable hyper-linked references.
 
 ## Overview ##
 
