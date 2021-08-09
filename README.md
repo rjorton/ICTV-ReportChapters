@@ -599,7 +599,23 @@ The script requires three things:
 
 The script then creates a new modified version of the source code which should be used to replace the original online version of the source code via copy and paste.
 
-**RJO ToDo:** create python version of script so that it can run on windows.
+A Java jar program **ICTV_RefLinks** has been uploaded to the repo that should be used as:
+
+```
+java -jar ICTV_RefLinks.jar source_code.txt references.txt url
+```
+
+As an example, a short section of the source code from the [*Hepacivrus*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae/362/genus-hepacivirus) genus report page is uploaded (hepaci_source.txt), the references from the [*Flaviviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae) chapter (flavi_refs.txt), and the URL for the *Flaviviridae* chapter is [https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae/365/references-flaviviridae](https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae/365/references-flaviviridae). This should be run as:
+
+```
+java -jar hepaci_source.txt flavis_ref.txt https://talk.ictvonline.org/ictv-reports/ictv_online_report/positive-sense-rna-viruses/w/flaviviridae/365/references-flaviviridae
+```
+
+This will create a file called **hepaci_source_out.txt** which contains the modified source code which should be uploaded to the ICTV Report website to replace the old code.
+
+**NB:** you will need to supply the full path to the files if they are not in the current directory
+
+**NB:** you will need **Java** installed on your machine to run it
 
 Obviously, this step can be ignored if not doing hoverable hyper-linked references.
 
