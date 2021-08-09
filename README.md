@@ -615,7 +615,7 @@ This will create a file called **hepaci_source_out.txt** which contains the modi
 
 **NB:** you will need to supply the full path to the files if they are not in the current directory
 
-**NB:** you will need **Java** installed on your machine to run it
+**NB:** you will need [**Java**](https://www.oracle.com/uk/java/technologies/javase-jre8-downloads.html) installed on your machine to run it, and need to run it through the Terminal/MS-DOS Prompt
 
 Obviously, this step can be ignored if not doing hoverable hyper-linked references.
 
