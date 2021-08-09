@@ -515,14 +515,31 @@ For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/i
 
 ### Related, unclassified viruses ###
 
-There is a simple script to create GenBank links from the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the table in question into a local file. The script requires 3 things:
-- The local file containing the table's source code
-- The column number that the GenBank accession are in
-- The total number of columns
+There is a simple script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
 
-The table itself may need to be modified when uploaded to the web. Multiple accession numbers (e.g. for segmented viruses) need to be in a structured format with a colon (:) used to separate a name (e.g. RNA1, RNA2 etc) from the accession number, and a semi-colon used to separate multiple sequences in the column. In addition, although the script handles an asterisk after the accession number (for footnotes), there are sometimes many different footnotes used, these will need to be deleted and re-created pre and post script.
+```
+java -jar ICTV_TableLinks.jar source_code.txt
+```
 
-**RJO ToDo:** python version of this script that can run on windows.
+Otherwise you will need to provide what column the accesion numbers are in and the total number of columns (both parameters simple integer numbers):
+
+```
+java -jar ICTV_TableLinks.jar source_code.txt accession_col total_cols
+```
+
+This will create an output file called **source_code_out.txt**, this should be copied and pasted to replace the source code of the original table **only** (i.e. it is the source code of the table only, not the whole page).
+
+The table itself may need to be modified when uploaded to the web and before running the scripts. Multiple accession numbers (e.g. for segmented viruses) need to be in a structured format with a colon (:) used to separate a name (e.g. RNA1, RNA2 etc) from the accession number, and a semi-colon used to separate multiple sequences in the column. In addition, although the script handles an asterisk after the accession number (for footnotes), there are sometimes many different footnotes used, these will need to be deleted and re-created pre and post script.
+
+Acceptable formats for the accession column are:
+
+- Accession
+- Accession, Accession, Accession
+- Label: Accession
+- Label: Accession; Label: Accesion; Label Accesion
+- Blank
+
+The script will link to ncbi nucleotide only - if alternative accesions are used - they may need to be fixed manually if they do noy auto-redirect on the NCBI end.
 
 Underneath the Related, unclassified viruses table the following text should be placed (heading level 5 and indented):
 
