@@ -541,6 +541,12 @@ Acceptable formats for the accession column are:
 
 The script will link to ncbi nucleotide only - if alternative accesions are used - they may need to be fixed manually if they do noy auto-redirect on the NCBI end.
 
+An example is uploaded to the repo from the [*Mammarenavirus*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/negative-sense-rna-viruses/w/arenaviridae/1117/genus-mammarenavirus) genus page, input file = **mamma_table.txt** and output file = **mamma_table_out.txt**, usage:
+
+```
+java -jar ICTV_TableLinks.jar mamma_table.txt
+```
+
 Underneath the Related, unclassified viruses table the following text should be placed (heading level 5 and indented):
 
 ```
