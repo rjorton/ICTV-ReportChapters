@@ -515,7 +515,7 @@ For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/i
 
 ### Related, unclassified viruses ###
 
-There is a simple script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
+There is a simple **Java** script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
 
 ```
 java -jar ICTV_TableLinks.jar source_code.txt
@@ -546,6 +546,10 @@ An example is uploaded to the repo from the [*Mammarenavirus*](https://talk.ictv
 ```
 java -jar ICTV_TableLinks.jar mamma_table.txt
 ```
+
+**NB:** you will need to supply the full path to the files if they are not in the current directory
+
+**NB:** you will need [**Java**](https://www.oracle.com/uk/java/technologies/javase-jre8-downloads.html) installed on your machine to run it, and need to run it through the Terminal/MS-DOS Prompt
 
 Underneath the Related, unclassified viruses table the following text should be placed (heading level 5 and indented):
 
