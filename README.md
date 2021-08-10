@@ -549,6 +549,8 @@ java -jar ICTV_TableLinks.jar mamma_table.txt
 
 **NB:** you will need to supply the full path to the files if they are not in the current directory
 
+**NB:** you will need to provide the path/location to the folder ICTV_TableLinks.jar is stored in if not in the current folder
+
 **NB:** you will need [**Java**](https://www.oracle.com/uk/java/technologies/javase-jre8-downloads.html) installed on your machine to run it, and need to run it through the Terminal/MS-DOS Prompt
 
 Underneath the Related, unclassified viruses table the following text should be placed (heading level 5 and indented):
