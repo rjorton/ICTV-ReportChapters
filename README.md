@@ -311,7 +311,7 @@ Format -> Formats -> Alignment -> Center
 
 ### Tables ###
 
-Footers for tables should used Heading 5 and be indented
+Footers for tables should use Heading 5 and be indented
 
 ```
 Format -> Formats -> Headings -> Heading 5
@@ -529,7 +529,7 @@ The standard three columns for this table are (although there are variations on 
 - Virus name
 - Accession number(**NB:** not as frequently comes in'Accession')
 - Virus abbreviation (**NB:** not as frequently comes in'Abbreviation')
--
+
 There is a simple **Java** script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
 
 ```
