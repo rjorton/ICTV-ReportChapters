@@ -527,8 +527,8 @@ For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/i
 
 The standard three columns for this table are (although there are variations on this e.g. extra columns) - column headings should be in bold:
 - Virus name
-- Accession number(**NB:** not as frequently comes in'Accession')
-- Virus abbreviation (**NB:** not as frequently comes in'Abbreviation')
+- Accession number(**NB:** not as frequently comes in 'Accession')
+- Virus abbreviation (**NB:** not as frequently comes in 'Abbreviation')
 
 **NB:** typically a border is not added to the Related, unclassified viruses table so that it matches the style of the Member species table
 
