@@ -309,6 +309,14 @@ The alignment of a figure can also be changed, typically 'center' is used:
 Format -> Formats -> Alignment -> Center
 ```
 
+### Tables ###
+
+Footers for tables should used Heading 5 and be indented
+
+```
+Format -> Formats -> Headings -> Heading 5
+```
+
 ### Anchors ###
 
 Genera pages (as well as other pages) often refer back to the family page, particularly for Figures or if a genus page has an empty section. To enable the hyperlink from a genus page to jump to the correct location within the family page anchors should be used. To insert an anchor, select the text/figure to be anchored and:
@@ -356,6 +364,8 @@ A list of all the member taxa should be created at the end of the chapter. This 
 - Bullet points are used (there is a button on the GUI)
 
 At this point if you compare the list created to the taxonomy browser on the left-hand side, if often becomes apparent if a taxon has been missed from the chapter word document by the SG (or if you have missed one during the transfer from Word to Web).
+
+**NB:** The member taxa hyperlinks should be italicised
 
 ### Chapter information ###
 
@@ -515,6 +525,11 @@ For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/i
 
 ### Related, unclassified viruses ###
 
+The standard three columns for this table are (although there are variations on this e.g. extra columns):
+- Virus name
+- Accession number(**NB:** not as frequently comes in'Accession')
+- Virus abbreviation (**NB:** not as frequently comes in'Abbreviation')
+-
 There is a simple **Java** script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
 
 ```
@@ -578,6 +593,7 @@ For subfamilies, the Unassigned species table has previously been added to the s
 
 Note both these example chapters actually need updating as the tables are currently empty due to taxonomic updates.
 
+**NB:** the footer of this table as the same as the standard member species table (as these still are member species) - NOT the same as the one used for Related, unclassified viruses.
 
 ## Subfamily pages ##
 
@@ -587,7 +603,6 @@ For examples, see:
 
 [*Herelleviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/dsdna-viruses/w/herelleviridae)  
 [*Papillomaviridae*](https://talk.ictvonline.org/ictv-reports/ictv_online_report/dsdna-viruses/w/papillomaviridae)
-
 
 
 ## Report Index ##
