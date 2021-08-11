@@ -525,10 +525,12 @@ For an example, see [*Arteriviridae*](https://talk.ictvonline.org/ictv-reports/i
 
 ### Related, unclassified viruses ###
 
-The standard three columns for this table are (although there are variations on this e.g. extra columns):
+The standard three columns for this table are (although there are variations on this e.g. extra columns) - column headings should be in bold:
 - Virus name
 - Accession number(**NB:** not as frequently comes in'Accession')
 - Virus abbreviation (**NB:** not as frequently comes in'Abbreviation')
+
+**NB:** typically a border is not added to the Related, unclassified viruses table so that it matches the style of the Member species table
 
 There is a simple **Java** script **ICTV_TableLinks** to create GenBank links within the 'Related, unclassified viruses' table. Again, this utilises the **Source code** of a page. Copy and paste the source code of **ONLY** the **table** in question into a local file (including the table html tags). If the table is in the standard format (1 header row, 3 columns, 2nd column accession number) then the script can just be run on the file only:
 
